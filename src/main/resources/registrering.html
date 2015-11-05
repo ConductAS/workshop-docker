@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adresseregistrering</title>
+    <script src="registrering.js"></script>
+</head>
+<body>
+
+<fieldset>
+    <legend>Adresse</legend>
+    <label for="postnummer">Poststed:</label>
+    <input id="postnummer" oninput="finnPoststed('postnummer', 'poststed')" type="number" maxlength="4"/>
+    <input id="poststed" disabled/>
+</fieldset>
+
+</body>
+</html>
